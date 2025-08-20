@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/companyName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TECH SOLUTIONS"
+        android:textStyle="bold"
+        android:textSize="32dp"
+        android:gravity="center"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/empName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nihala Jebin"
+        android:textSize="24sp"
+        android:layout_below="@id/companyName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/job"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Software Engineer"
+        android:textSize="20sp"
+        android:layout_below="@id/empName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"/>
+
+    <View
+        android:id="@+id/horizontalLine"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/job"
+        android:layout_marginTop="12dp"
+        android:background="#000000" />
+
+
+    <TextView
+        android:id="@+id/phNo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phone:9778358123"
+        android:textSize="16sp"
+        android:layout_below="@id/horizontalLine"
+        android:layout_marginTop="12dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="234 Street,Delhi"
+        android:textSize="16sp"
+        android:layout_below="@id/phNo"
+        android:layout_marginTop="8dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="nihala@gmail.com"
+        android:textSize="16sp"
+        android:layout_below="@id/address"
+        android:layout_marginTop="8dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/website"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="www.techsolutions.com"
+        android:textSize="16sp"
+        android:layout_below="@id/email"
+        android:layout_marginTop="8dp"
+        android:layout_centerHorizontal="true"/>
+</RelativeLayout>
